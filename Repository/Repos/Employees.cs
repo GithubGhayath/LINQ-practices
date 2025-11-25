@@ -1,4 +1,5 @@
-﻿using Repository.Entities;
+﻿using Repository.Dtos;
+using Repository.Entities;
 using System.Runtime.CompilerServices;
 using System.Security.Cryptography.X509Certificates;
 
@@ -16,6 +17,195 @@ public static class Departments
             new Department{ Id = 4 , Name = "Marketing"},
             new Department{ Id = 5 , Name = "Finance"}
         };
+    }
+}
+
+public static class Meetings
+{
+    public static List<Meeting> GetMeetings()
+    {
+        return new List<Meeting>
+    {
+        new Meeting
+        {
+            Title = "Project Kickoff",
+            Date = new DateOnly(2025, 1, 10),
+            StartAt = new TimeOnly(9, 0),
+            EndAt = new TimeOnly(10, 0),
+            Participants = new List<EmployeeDto>
+            {
+                new EmployeeDto{ EmployeeNo = "E001", Name="Alice" },
+                new EmployeeDto{ EmployeeNo = "E002", Name="Bob" },
+                new EmployeeDto{ EmployeeNo = "E003", Name="Charlie" },
+                new EmployeeDto{ EmployeeNo = "E004", Name="Diana" },
+            }
+        },
+
+        new Meeting
+        {
+            Title = "Design Review",
+            Date = new DateOnly(2025, 1, 11),
+            StartAt = new TimeOnly(13, 30),
+            EndAt = new TimeOnly(15, 0),
+            Participants = new List<EmployeeDto>
+            {
+                new EmployeeDto{ EmployeeNo = "E003", Name="Charlie" },
+                new EmployeeDto{ EmployeeNo = "E005", Name="Edward" },
+                new EmployeeDto{ EmployeeNo = "E006", Name="Fiona" },
+                new EmployeeDto{ EmployeeNo = "E004", Name="Diana" },
+            }
+        },
+
+        new Meeting
+        {
+            Title = "Weekly Sync",
+            Date = new DateOnly(2025, 1, 12),
+            StartAt = new TimeOnly(10, 0),
+            EndAt = new TimeOnly(11, 0),
+            Participants = new List<EmployeeDto>
+            {
+                new EmployeeDto{ EmployeeNo = "E001", Name="Alice" },
+                new EmployeeDto{ EmployeeNo = "E007", Name="George" },
+                new EmployeeDto{ EmployeeNo = "E002", Name="Bob" },
+                new EmployeeDto{ EmployeeNo = "E008", Name="Helen" },
+            }
+        },
+
+        new Meeting
+        {
+            Title = "Client Presentation",
+            Date = new DateOnly(2025, 1, 13),
+            StartAt = new TimeOnly(16, 0),
+            EndAt = new TimeOnly(17, 0),
+            Participants = new List<EmployeeDto>
+            {
+                new EmployeeDto{ EmployeeNo = "E005", Name="Edward" },
+                new EmployeeDto{ EmployeeNo = "E009", Name="Ian" },
+                new EmployeeDto{ EmployeeNo = "E003", Name="Charlie" },
+                new EmployeeDto{ EmployeeNo = "E010", Name="Jack" },
+            }
+        },
+
+        new Meeting
+        {
+            Title = "Backend Planning",
+            Date = new DateOnly(2025, 1, 14),
+            StartAt = new TimeOnly(9, 30),
+            EndAt = new TimeOnly(11, 30),
+            Participants = new List<EmployeeDto>
+            {
+                new EmployeeDto{ EmployeeNo = "E003", Name="Charlie" },
+                new EmployeeDto{ EmployeeNo = "E006", Name="Fiona" },
+                new EmployeeDto{ EmployeeNo = "E011", Name="Kevin" },
+                new EmployeeDto{ EmployeeNo = "E001", Name="Alice" },
+            }
+        },
+
+        new Meeting
+        {
+            Title = "Marketing Strategy",
+            Date = new DateOnly(2025, 1, 15),
+            StartAt = new TimeOnly(14, 0),
+            EndAt = new TimeOnly(15, 30),
+            Participants = new List<EmployeeDto>
+            {
+                new EmployeeDto{ EmployeeNo = "E007", Name="George" },
+                new EmployeeDto{ EmployeeNo = "E012", Name="Laura" },
+                new EmployeeDto{ EmployeeNo = "E009", Name="Ian" },
+                new EmployeeDto{ EmployeeNo = "E013", Name="Maria" },
+            }
+        },
+
+        new Meeting
+        {
+            Title = "HR Training",
+            Date = new DateOnly(2025, 1, 16),
+            StartAt = new TimeOnly(11, 0),
+            EndAt = new TimeOnly(12, 0),
+            Participants = new List<EmployeeDto>
+            {
+                new EmployeeDto{ EmployeeNo = "E008", Name="Helen" },
+                new EmployeeDto{ EmployeeNo = "E009", Name="Ian" },
+                new EmployeeDto{ EmployeeNo = "E014", Name="Natalie" },
+                new EmployeeDto{ EmployeeNo = "E015", Name="Oscar" },
+            }
+        },
+
+        new Meeting
+        {
+            Title = "Security Audit",
+            Date = new DateOnly(2025, 1, 17),
+            StartAt = new TimeOnly(15, 0),
+            EndAt = new TimeOnly(17, 0),
+            Participants = new List<EmployeeDto>
+            {
+                new EmployeeDto{ EmployeeNo = "E001", Name="Alice" },
+                new EmployeeDto{ EmployeeNo = "E005", Name="Edward" },
+                new EmployeeDto{ EmployeeNo = "E006", Name="Fiona" },
+                new EmployeeDto{ EmployeeNo = "E010", Name="Jack" },
+            }
+        },
+
+        new Meeting
+        {
+            Title = "DevOps Retrospective",
+            Date = new DateOnly(2025, 1, 18),
+            StartAt = new TimeOnly(9, 0),
+            EndAt = new TimeOnly(10, 0),
+            Participants = new List<EmployeeDto>
+            {
+                new EmployeeDto{ EmployeeNo = "E010", Name="Jack" },
+                new EmployeeDto{ EmployeeNo = "E011", Name="Kevin" },
+                new EmployeeDto{ EmployeeNo = "E012", Name="Laura" },
+                new EmployeeDto{ EmployeeNo = "E013", Name="Maria" },
+            }
+        },
+
+        new Meeting
+        {
+            Title = "Sales Forecast",
+            Date = new DateOnly(2025, 1, 19),
+            StartAt = new TimeOnly(10, 30),
+            EndAt = new TimeOnly(11, 30),
+            Participants = new List<EmployeeDto>
+            {
+                new EmployeeDto{ EmployeeNo = "E007", Name="George" },
+                new EmployeeDto{ EmployeeNo = "E009", Name="Ian" },
+                new EmployeeDto{ EmployeeNo = "E014", Name="Natalie" },
+                new EmployeeDto{ EmployeeNo = "E006", Name="Fiona" },
+            }
+        },
+
+        new Meeting
+        {
+            Title = "Budget Review",
+            Date = new DateOnly(2025, 1, 20),
+            StartAt = new TimeOnly(13, 0),
+            EndAt = new TimeOnly(14, 0),
+            Participants = new List<EmployeeDto>
+            {
+                new EmployeeDto{ EmployeeNo = "E006", Name="Fiona" },
+                new EmployeeDto{ EmployeeNo = "E015", Name="Oscar" },
+                new EmployeeDto{ EmployeeNo = "E005", Name="Edward" },
+                new EmployeeDto{ EmployeeNo = "E001", Name="Alice" },
+            }
+        },
+
+        new Meeting
+        {
+            Title = "Product Brainstorm",
+            Date = new DateOnly(2025, 1, 21),
+            StartAt = new TimeOnly(9, 30),
+            EndAt = new TimeOnly(11, 0),
+            Participants = new List<EmployeeDto>
+            {
+                new EmployeeDto{ EmployeeNo = "E001", Name="Alice" },
+                new EmployeeDto{ EmployeeNo = "E003", Name="Charlie" },
+                new EmployeeDto{ EmployeeNo = "E004", Name="Diana" },
+                new EmployeeDto{ EmployeeNo = "E012", Name="Laura" },
+            }
+        }
+    };
     }
 }
 public static class Employees

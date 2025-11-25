@@ -9,3 +9,4 @@ C:\Users\ghaya\OneDrive\Desktop\LINQ Practice\Repository\obj\Debug\net9.0\Reposi
 C:\Users\ghaya\OneDrive\Desktop\LINQ Practice\Repository\obj\Debug\net9.0\refint\Repository.dll
 C:\Users\ghaya\OneDrive\Desktop\LINQ Practice\Repository\obj\Debug\net9.0\Repository.pdb
 C:\Users\ghaya\OneDrive\Desktop\LINQ Practice\Repository\obj\Debug\net9.0\ref\Repository.dll
+C:\Users\ghaya\OneDrive\Desktop\LINQ Practice\Repository\obj\Debug\net9.0\Repository.sourcelink.json

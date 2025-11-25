@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PartitioningStatement")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3261ae2cc94fd2be03e41da9b826823cd4f829f5")]
 [assembly: System.Reflection.AssemblyProductAttribute("PartitioningStatement")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PartitioningStatement")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

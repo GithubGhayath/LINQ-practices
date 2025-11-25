@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcatenationStatement", "C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AggregateStatement", "AggregateStatement\AggregateStatement.csproj", "{0BC358AC-A221-4911-BF08-20E184C95375}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SetsOperationsStatement", "SetsOperations\SetsOperationsStatement.csproj", "{FE77D343-661D-451E-9A4A-45C949ECC655}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -181,6 +183,18 @@ Global
 		{0BC358AC-A221-4911-BF08-20E184C95375}.Release|x64.Build.0 = Release|Any CPU
 		{0BC358AC-A221-4911-BF08-20E184C95375}.Release|x86.ActiveCfg = Release|Any CPU
 		{0BC358AC-A221-4911-BF08-20E184C95375}.Release|x86.Build.0 = Release|Any CPU
+		{FE77D343-661D-451E-9A4A-45C949ECC655}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE77D343-661D-451E-9A4A-45C949ECC655}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE77D343-661D-451E-9A4A-45C949ECC655}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{FE77D343-661D-451E-9A4A-45C949ECC655}.Debug|x64.Build.0 = Debug|Any CPU
+		{FE77D343-661D-451E-9A4A-45C949ECC655}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FE77D343-661D-451E-9A4A-45C949ECC655}.Debug|x86.Build.0 = Debug|Any CPU
+		{FE77D343-661D-451E-9A4A-45C949ECC655}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE77D343-661D-451E-9A4A-45C949ECC655}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE77D343-661D-451E-9A4A-45C949ECC655}.Release|x64.ActiveCfg = Release|Any CPU
+		{FE77D343-661D-451E-9A4A-45C949ECC655}.Release|x64.Build.0 = Release|Any CPU
+		{FE77D343-661D-451E-9A4A-45C949ECC655}.Release|x86.ActiveCfg = Release|Any CPU
+		{FE77D343-661D-451E-9A4A-45C949ECC655}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

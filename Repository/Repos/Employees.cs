@@ -210,6 +210,56 @@ public static class Meetings
 }
 public static class Employees
 {
+    private static readonly Random Rand = new();
+
+    private static readonly string[] Names =
+    {
+        "Ahmad","Omar","Samer","Khaled","Rami","Fadi","Mahmoud","Tariq",
+        "Nour","Yasser","Sleiman","Hassan","Bilal","Ziad","Nader",
+        "Karim","Amer","Walid","Fares","Ghaith"
+    };
+
+    private static readonly string[] SkillPool =
+    {
+        "C#", "SQL", "Docker", "Kubernetes", "Java", "Python", "Problem Solving",
+        "Teamwork", "Microservices", "API Design", "Security"
+    };
+
+
+    public static List<EmployeeExtension> GenerateEmployees(int count = 100)
+    {
+        var list = new List<EmployeeExtension>();
+
+        for (int i = 1; i <= count; i++)
+        {
+            var skills = new List<string>();
+            int skillCount = Rand.Next(1, 5); // 1–4 skills
+
+            for (int s = 0; s < skillCount; s++)
+            {
+                var skill = SkillPool[Rand.Next(SkillPool.Length)];
+                if (!skills.Contains(skill)) skills.Add(skill);
+            }
+
+            var employee = new EmployeeExtension
+            {
+                Id = i.ToString(),
+                Name = Names[Rand.Next(Names.Length)],
+                Age = Rand.Next(20, 60),
+                DepartmentId = Rand.Next(1, 6),
+                Salary = Rand.Next(800, 6000),
+                HireDate = DateTime.Now.AddDays(-Rand.Next(100, 3000)),
+                IsActive = Rand.Next(0, 2) == 1,
+                Skills = skills,
+                HasHealthInsurance = Rand.Next(0, 2) == 1,
+                HasPensionPlan = Rand.Next(0, 2) == 1
+            };
+
+            list.Add(employee);
+        }
+
+        return list;
+    }
     public static List<Employee> GetEmployees()
     {
         return new List<Employee>

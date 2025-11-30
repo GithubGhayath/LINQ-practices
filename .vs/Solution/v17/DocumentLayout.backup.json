@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\ghaya\\OneDrive\\Desktop\\LINQ Practice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FE77D343-661D-451E-9A4A-45C949ECC655}|SetsOperations\\SetsOperationsStatement.csproj|c:\\users\\ghaya\\onedrive\\desktop\\linq practice\\setsoperations\\setsoperationsstatementprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE77D343-661D-451E-9A4A-45C949ECC655}|SetsOperations\\SetsOperationsStatement.csproj|solutionrelative:setsoperations\\setsoperationsstatementprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FBEB2DD6-DCC8-4128-800C-A5D80A9AA68B}|CustomLINQExtensionMethod\\CustomLINQExtensionMethod.csproj|c:\\users\\ghaya\\onedrive\\desktop\\linq practice\\customlinqextensionmethod\\customlinqextensionmethodprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBEB2DD6-DCC8-4128-800C-A5D80A9AA68B}|CustomLINQExtensionMethod\\CustomLINQExtensionMethod.csproj|solutionrelative:customlinqextensionmethod\\customlinqextensionmethodprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BB1A4A8-DEF6-4745-B70B-CC0BD0A89204}|Repository\\Repository.csproj|c:\\users\\ghaya\\onedrive\\desktop\\linq practice\\repository\\dtos\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BB1A4A8-DEF6-4745-B70B-CC0BD0A89204}|Repository\\Repository.csproj|solutionrelative:repository\\dtos\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6BB1A4A8-DEF6-4745-B70B-CC0BD0A89204}|Repository\\Repository.csproj|c:\\users\\ghaya\\onedrive\\desktop\\linq practice\\repository\\entities\\employeeextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB1A4A8-DEF6-4745-B70B-CC0BD0A89204}|Repository\\Repository.csproj|solutionrelative:repository\\entities\\employeeextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB1A4A8-DEF6-4745-B70B-CC0BD0A89204}|Repository\\Repository.csproj|c:\\users\\ghaya\\onedrive\\desktop\\linq practice\\repository\\extensions\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB1A4A8-DEF6-4745-B70B-CC0BD0A89204}|Repository\\Repository.csproj|solutionrelative:repository\\extensions\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,28 +30,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EmployeeDto.cs",
-              "DocumentMoniker": "C:\\Users\\ghaya\\OneDrive\\Desktop\\LINQ Practice\\Repository\\Dtos\\EmployeeDto.cs",
-              "RelativeDocumentMoniker": "Repository\\Dtos\\EmployeeDto.cs",
-              "ToolTip": "C:\\Users\\ghaya\\OneDrive\\Desktop\\LINQ Practice\\Repository\\Dtos\\EmployeeDto.cs",
-              "RelativeToolTip": "Repository\\Dtos\\EmployeeDto.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAiwBQAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Extensions.cs",
+              "DocumentMoniker": "C:\\Users\\ghaya\\OneDrive\\Desktop\\LINQ Practice\\Repository\\Extensions\\Extensions.cs",
+              "RelativeDocumentMoniker": "Repository\\Extensions\\Extensions.cs",
+              "ToolTip": "C:\\Users\\ghaya\\OneDrive\\Desktop\\LINQ Practice\\Repository\\Extensions\\Extensions.cs",
+              "RelativeToolTip": "Repository\\Extensions\\Extensions.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T12:19:38.44Z",
+              "WhenOpened": "2025-11-30T18:22:28.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeExtension.cs",
+              "DocumentMoniker": "C:\\Users\\ghaya\\OneDrive\\Desktop\\LINQ Practice\\Repository\\Entities\\EmployeeExtension.cs",
+              "RelativeDocumentMoniker": "Repository\\Entities\\EmployeeExtension.cs",
+              "ToolTip": "C:\\Users\\ghaya\\OneDrive\\Desktop\\LINQ Practice\\Repository\\Entities\\EmployeeExtension.cs",
+              "RelativeToolTip": "Repository\\Entities\\EmployeeExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T18:18:07.68Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SetsOperationsStatementProgram.cs",
-              "DocumentMoniker": "C:\\Users\\ghaya\\OneDrive\\Desktop\\LINQ Practice\\SetsOperations\\SetsOperationsStatementProgram.cs",
-              "RelativeDocumentMoniker": "SetsOperations\\SetsOperationsStatementProgram.cs",
-              "ToolTip": "C:\\Users\\ghaya\\OneDrive\\Desktop\\LINQ Practice\\SetsOperations\\SetsOperationsStatementProgram.cs*",
-              "RelativeToolTip": "SetsOperations\\SetsOperationsStatementProgram.cs*",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAxwB8AAABXAAAAAAAAAA==",
+              "Title": "CustomLINQExtensionMethodProgram.cs",
+              "DocumentMoniker": "C:\\Users\\ghaya\\OneDrive\\Desktop\\LINQ Practice\\CustomLINQExtensionMethod\\CustomLINQExtensionMethodProgram.cs",
+              "RelativeDocumentMoniker": "CustomLINQExtensionMethod\\CustomLINQExtensionMethodProgram.cs",
+              "ToolTip": "C:\\Users\\ghaya\\OneDrive\\Desktop\\LINQ Practice\\CustomLINQExtensionMethod\\CustomLINQExtensionMethodProgram.cs*",
+              "RelativeToolTip": "CustomLINQExtensionMethod\\CustomLINQExtensionMethodProgram.cs*",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwCMAAAB4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T20:58:42.915Z",
+              "WhenOpened": "2025-11-30T18:17:17.657Z",
               "EditorCaption": ""
             }
           ]

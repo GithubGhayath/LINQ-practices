@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AggregateStatement", "Aggre
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SetsOperationsStatement", "SetsOperations\SetsOperationsStatement.csproj", "{FE77D343-661D-451E-9A4A-45C949ECC655}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressionTrees", "ExpressionTrees\ExpressionTrees.csproj", "{6484C610-3FE2-4B73-BDB5-E42B4B528AD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomLINQExtensionMethod", "CustomLINQExtensionMethod\CustomLINQExtensionMethod.csproj", "{FBEB2DD6-DCC8-4128-800C-A5D80A9AA68B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -195,8 +199,35 @@ Global
 		{FE77D343-661D-451E-9A4A-45C949ECC655}.Release|x64.Build.0 = Release|Any CPU
 		{FE77D343-661D-451E-9A4A-45C949ECC655}.Release|x86.ActiveCfg = Release|Any CPU
 		{FE77D343-661D-451E-9A4A-45C949ECC655}.Release|x86.Build.0 = Release|Any CPU
+		{6484C610-3FE2-4B73-BDB5-E42B4B528AD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6484C610-3FE2-4B73-BDB5-E42B4B528AD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6484C610-3FE2-4B73-BDB5-E42B4B528AD8}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{6484C610-3FE2-4B73-BDB5-E42B4B528AD8}.Debug|x64.Build.0 = Debug|Any CPU
+		{6484C610-3FE2-4B73-BDB5-E42B4B528AD8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6484C610-3FE2-4B73-BDB5-E42B4B528AD8}.Debug|x86.Build.0 = Debug|Any CPU
+		{6484C610-3FE2-4B73-BDB5-E42B4B528AD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6484C610-3FE2-4B73-BDB5-E42B4B528AD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6484C610-3FE2-4B73-BDB5-E42B4B528AD8}.Release|x64.ActiveCfg = Release|Any CPU
+		{6484C610-3FE2-4B73-BDB5-E42B4B528AD8}.Release|x64.Build.0 = Release|Any CPU
+		{6484C610-3FE2-4B73-BDB5-E42B4B528AD8}.Release|x86.ActiveCfg = Release|Any CPU
+		{6484C610-3FE2-4B73-BDB5-E42B4B528AD8}.Release|x86.Build.0 = Release|Any CPU
+		{FBEB2DD6-DCC8-4128-800C-A5D80A9AA68B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBEB2DD6-DCC8-4128-800C-A5D80A9AA68B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBEB2DD6-DCC8-4128-800C-A5D80A9AA68B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{FBEB2DD6-DCC8-4128-800C-A5D80A9AA68B}.Debug|x64.Build.0 = Debug|Any CPU
+		{FBEB2DD6-DCC8-4128-800C-A5D80A9AA68B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FBEB2DD6-DCC8-4128-800C-A5D80A9AA68B}.Debug|x86.Build.0 = Debug|Any CPU
+		{FBEB2DD6-DCC8-4128-800C-A5D80A9AA68B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBEB2DD6-DCC8-4128-800C-A5D80A9AA68B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBEB2DD6-DCC8-4128-800C-A5D80A9AA68B}.Release|x64.ActiveCfg = Release|Any CPU
+		{FBEB2DD6-DCC8-4128-800C-A5D80A9AA68B}.Release|x64.Build.0 = Release|Any CPU
+		{FBEB2DD6-DCC8-4128-800C-A5D80A9AA68B}.Release|x86.ActiveCfg = Release|Any CPU
+		{FBEB2DD6-DCC8-4128-800C-A5D80A9AA68B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B95A6B0-D17B-487B-A4C0-7B2CF6973945}
 	EndGlobalSection
 EndGlobal
